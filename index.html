@@ -4,58 +4,64 @@
                 <meta charset="UTF-8">
                 <meta name="Tomas Alvarez">
 		<link type="text/css" rel="stylesheet" href="HomeDec.css"/>
+		<link type="text/css" rel="stylesheet" href="bootstrap.css"/>
 		<link rel="shortcut icon" href="http://icons.iconseeker.com/ico/black-glossy/network-64.ico">
 		<title>My Website</title>
 	</head>
 	<body>
-		<div id="top">
+		<div id="top" class="row">
+			<div id="strip">
+			</div>
+			
+			<div id="nav">
+					<ul>
+						<strong>
+						<li style="color: #3D3D5C">Home</li>
+						<li><a href="ResumeTA.html">Resume</a></li>
+						<li><a href="ProjectsTA.html">Projects</a></li>
+						<li><a href="AboutmeTA.html">About Me</a></li>
+						<li><a href="ContactTA.html">Contact</a></li>
+						</strong>
+					</ul>
+			</div>
+			
+			<div id="text">
+				<p class="">The More We Learn</p>
+			</div>
+			<div id="text">
+				<p style="margin-left: 200px"><span>The More We Earn</span></p>
+			</div>
 			
 		</div>
-		<div id="strip">
-		<div id="nav">
-			<ul>
-				<strong>
-				<li style="color: #3D3D5C">Home</li>
-				<li><a href="ResumeTA.html">Resume</a></li>
-				<li><a href="ProjectsTA.html">Projects</a></li>
-				<li><a href="AboutmeTA.html">About Me</a></li>
-				<li><a href="ContactTA.html">Contact</a></li>
-				</strong>
-			</ul>
-		</div>
-		<div id="text">
-			<p>The More We Learn</p>
-			<p style="margin-left: 200px">The More We Earn</p>
-		</div>
-		</div>
 		
-		<div class="bottom">
-			<div>
-				<div class="circle" id="one"  style="margin-left: 80px; margin-right: 200px">
+		
+		<div class="bottom row">
+				<div class="circle col-md-4">
 					<p>
 						<img src="http://www.thesagaciousgroup.com/images/slider/webdesign.png"/>
 					</p>
+					<p style="margin-bottom: 60px">
+						<span style="color: white">Web Design</span>
+					</p>
 				</div>
 				
-				<div class="circle" id="two">
+				<div class="circle col-md-4">
 					<p>
 						<img src="http://www.iisummer.com/images/button-computer.png"/>
 					</p>
+					<p style="margin-bottom: 60px">
+						<span style="color: white">Programming</span>
+					</p>
 				</div>
 				
-				<div class="circle" id="three"  style="margin-left: 200px; margin-right: 20px">
+				<div class="circle col-md-4">
 					<p>
 						<img src="http://cliparts.co/cliparts/kc8/9dz/kc89dz9cr.gif"/>
 					</p>
+					<p style="margin-bottom: 60px">
+						<span style="color: white">Career</span>
+					</p>
 				</div>
-			</div>
-			<div id="label">
-				<ul>
-					<li>Web Design</li>
-					<li>Programming</li>
-					<li>Career</li>
-				</ul>
-			</div>
 		</div>
 	</body>
 </html>

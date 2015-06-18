@@ -1,11 +1,11 @@
+body {
 
+}
 
 #top {
-    position: absolute;
-    width: 101%;
-    margin-top: -20px;
-    height: 550px;
-    background-color: white;
+    position: static;
+    margin-top: -5px;
+    background-color: White;
     margin-left: -10px;
 }
 
@@ -22,7 +22,7 @@
     list-style-type: none;
     text-align: right;
     margin-right: 40px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #nav li {
@@ -41,64 +41,23 @@
     font-size: 80px;
     color: #14141F;
     text-decoration: underline;
-}
-
-.circle {
-    position: relative;
-    display: inline-block;
-    height: 250px;
-    width: 250px;
-    border-radius: 100%;
-    border: 2px solid white;
-   
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .circle p img {
     height: 250px;
     width: 250px;
     border-radius: 100%;
-    margin-top: -16px;
-}
-
-#one {
     margin-top: 50px;
-}
-
-#two {
-    margin-top: 50px;
-
-}
-
-#three {
-    margin-top: 50px;
-    
-}
-
-#label {
-    list-style-type: none;
-    text-align: center;
-    margin-top: 20px;
-    
-    
-}
-
-#label li{
-    display: inline-block;
-    color: white;
-    padding-left: 180px;
-    padding-right: 180px;
-    font-size: large;
-    font-family: Verdana;
+    margin-bottom: 25px;
     
 }
 
 .bottom {
-    position: absolute;
+    position: relative;
     clear: both;
-    width: 101%;
-    height: 405px;
     background-color: #14141F;
     margin-left: -10px;
-    margin-top: 525px;
     text-align: center;
 }
