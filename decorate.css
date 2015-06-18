@@ -78,12 +78,14 @@ h4 {
 
 .middle table {
 	margin: 30px;
+	
 }
 
 .middle table img {
-	height: 30px;
-	width: 30px;
-	padding: 10px;
+	height: 70px;
+	width: 70px;
+	padding: 20px;
+	margin-top: 200px;
 }
 
 
